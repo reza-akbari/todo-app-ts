@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap");
+
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+.app {
+  border: 1px solid #999;
+  padding: 16px;
+  max-width: 360px;
+  margin: 16px auto;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 18px;
+  margin: 0 0 16px;
+}
+
+.new-item {
+  margin-bottom: 32px;
+}
+
+.item {
+  margin-bottom: 16px;
+}
+
+.item > button {
+  font-size: 10px;
+  float: left;
+}
+
+.item.done {
+  text-decoration: line-through;
+}
+
+.item.template {
+  display: none;
+}
